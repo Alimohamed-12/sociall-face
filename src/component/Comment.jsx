@@ -7,7 +7,7 @@ import axios from 'axios';
 import { useRaf } from 'react-use';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { toast } from 'react-toastify';
-import CommentReply from './commentReply';
+import CommentReply from './CommentReply';
 export default function Comment({ topComment, id }) {
 
   const idComment = topComment._id
